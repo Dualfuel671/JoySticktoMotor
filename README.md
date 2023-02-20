@@ -11,3 +11,4 @@ pygame is the python code that has useful libraries for interfacing game control
 I used this code to test whether my code/game controller/ laptop/ were working: https://github.com/denilsonsa/pygame-joystick-test (thank you denilsonsa)
 
 NEW code. I asked ChatGPT to write code for controlling motors in python.
+PyJoyMotor needs RPi.GPIO library loaded before building. Also, using GPIO pins with Ubuntu, is NOT a realtime way of controlling motors. So a real time operating system may have to be explored if we lose control of the motors.
